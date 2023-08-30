@@ -1,0 +1,23 @@
+[package]
+name = "yamold"
+version = "0.0.1"
+edition = "2021"
+
+license =  "MIT"
+description = "a tool for scaffolding using yaml"
+authors = ["Gustavo Mendonça, <https://github.com/swxtz>"]
+repository = "https://github.com/swxtz/yamold"
+documentation = "https://docs.rs/crate/yamold"
+
+[package.metadata.scripts]
+run = "cargo run"
+check = "cargo check"
+build = "cargo build"
+release = "cargo build --release"
+publish = "cargo publish"
+publish-dirty = "cargo publish --allow-dirty"
+doc = "cargo doc --no-deps --open"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
